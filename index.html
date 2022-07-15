@@ -1,0 +1,104 @@
+<html lang="es-Es">
+    <header>
+        <meta charset="UTF-8">
+        <title>Josemtrres</title>
+    </header>
+    <nav>
+        <link href="http://fonts.cdnfonts.com/css/sign-me-tarnias" rel="stylesheet">
+        <link rel="stylesheet" href="./style.css"></link>
+    </nav>
+    <body>
+        <div class="nombre"> 
+            <button class="Nombre" type="button">  JOSE TORRES </button>
+             
+        </div>
+    </body>
+    <style>
+        body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        color: #111;
+        background: radial-gradient(circle, #111 0%, );
+        }
+    
+        .Nombre{
+            font-family: 'Sign Me Tarnias', sans-serif;
+            color: #111;
+            background-color:  transparent;
+            font-size: larger;
+            padding: 2px 40px;
+            position: relative;
+        }
+        .nombre {
+            background: white;
+            padding: 2px 40px;
+            position: relative;
+            border-radius: 8px;
+
+        }
+        .nombre::after {
+            position: absolute;
+            content: "";
+            top: 15px;
+            left: 0;
+            right: 0;
+            z-index: -1;
+            height: 100%;
+            width: 100%;
+            transform: scale(0.9) translateZ(0);
+            filter: blur(15px);
+            background: linear-gradient(
+                to left,
+                #25c6bc,
+                #00b8c3,
+                #00aac9,
+                #009acc,
+                #0089ca,
+                #0077c4,
+                #2864b7,
+                #4f4fa4,
+                #65378b,
+                #711a6e,
+                #65378b,
+                #4f4fa4,
+                #2864b7,
+                #0077c4,  
+                #0089ca,           
+                #009acc,
+                #00aac9,
+                #00aac9,
+                #25c6bc
+                );
+
+            background-size: 200% 200%;
+            -webkit-animation: animateGlow 1.25s linear infinite;
+                    animation: animateGlow 1.25s linear infinite;
+        }
+        .nombre:hover{
+            transition: all 0.1s ease;
+        }
+        @-webkit-keyframes animateGlow {
+            0% {
+            background-position: 0% 50%;
+            }
+            100% {
+            background-position: 200% 50%;
+            }
+        }
+        
+        @keyframes animateGlow {
+            0% {
+            background-position: 0% 50%;
+            }
+            100% {
+            background-position: 200% 50%;
+            }
+        }
+        
+    </style>
+               
+    
+</html>
+ 
